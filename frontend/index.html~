@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>User manager</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://code.angularjs.org/1.5.7/angular.min.js"></script>
+    <scropt src="./app/angular.js"></script>
+</head>
+
+<body ng-app='appUserManager' ng-controller='userManagercontroller'>
+  <div users-table></div>
+</body>
+
+</html>
